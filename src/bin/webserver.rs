@@ -9,6 +9,9 @@ use serde::Serialize;
 
 #[tokio::main]
 async fn main() {
+    let tracing_worker_guard = plantplot::core::tracing::initialize_tracing("webserver");
+    info!("Successfully initialized tracing module!");
+
     let app = Router::new()
         .route("/", get(root));
 
