@@ -7,6 +7,7 @@ This project is built with a focus on performance, observability, and modern bac
 - Axum - Built on top of tokio and hyper, enabling scalable and composable web services
 - Tracing - Provides structured, contextual logging designed for async Rust applications
 - Bevy - Data-driven game engine built in Rust
+- Criterion - To do
 - SQLx + SQLite - async, lightweight SQL database setup using SQLx with a file-based SQLite backend (no external server required)
 
 ## Installation
